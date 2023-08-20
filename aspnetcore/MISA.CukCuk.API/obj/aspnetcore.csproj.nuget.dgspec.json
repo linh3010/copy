@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\c\\N4-K2\\NAD\\NAD_CHESS\\web2023ptit\\b19dccn370-btlinh\\MISA.CukCuk.API\\MISA.CukCuk.API\\aspnetcore.csproj": {}
+  },
+  "projects": {
+    "E:\\c\\N4-K2\\NAD\\NAD_CHESS\\web2023ptit\\b19dccn370-btlinh\\MISA.CukCuk.API\\MISA.CukCuk.API\\aspnetcore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\c\\N4-K2\\NAD\\NAD_CHESS\\web2023ptit\\b19dccn370-btlinh\\MISA.CukCuk.API\\MISA.CukCuk.API\\aspnetcore.csproj",
+        "projectName": "aspnetcore",
+        "projectPath": "E:\\c\\N4-K2\\NAD\\NAD_CHESS\\web2023ptit\\b19dccn370-btlinh\\MISA.CukCuk.API\\MISA.CukCuk.API\\aspnetcore.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\c\\N4-K2\\NAD\\NAD_CHESS\\web2023ptit\\b19dccn370-btlinh\\MISA.CukCuk.API\\MISA.CukCuk.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.151, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

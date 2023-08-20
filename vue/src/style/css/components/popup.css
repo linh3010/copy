@@ -1,0 +1,110 @@
+.m-popup{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #00000074;
+    z-index: 10000;
+    display: none;
+}
+
+.isShowPopup{
+    display: block !important;
+}
+
+.m-popup-content{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+
+}
+
+.m-popup .m-popup-header{
+    background-color: unset;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.m-popup .m-popup-header .m-popup-tittle{
+    font-size: 20px;
+    font-style: Bold;
+    color: black;
+    display: flex;
+}
+
+.m-popup .m-popup-header button.m-popup-close{
+    position: absolute;
+    right: 24px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../assets/icon/x.svg);
+    text-align: center;
+    background-color: unset;
+    border: none;
+    background-position: center;
+    background-size: contain;
+}
+
+.m-popup .m-popup-body{
+    height: calc(300px - 150px);
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.m-popup .m-popup-body .m-popup-icon{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-image: url(../../../assets/icon/exclamation-point-alert-triangle-red-icon-free-png-11640517745q925uiqwxh.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.m-popup .m-popup-body .m-popup-info{
+    height: 100px;
+    width: calc(100% - 94px);
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.m-popup .m-popup-footer{
+    background-color: unset;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #f1efef;
+}
+
+.m-popup .m-popup-footer button.m-popup-cancel{
+    color: #000;
+    margin-right: 16px;
+    position: absolute;
+    right: 120px;
+}
+
+.m-popup .m-popup-footer button.m-popup-cancel:hover{
+    background-color: #cecdcd;
+}
+
+.m-popup .m-popup-footer button.m-popup-delete{
+    margin-right: 24px;
+    position: absolute;
+    right: 0;
+}

@@ -1,0 +1,178 @@
+.m-dialog{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #00000074;
+    z-index: 10000;
+    display: none;
+}
+
+.isShowDialog{
+    display: block !important;
+}
+
+.m-dialog-content{
+    width: 800px;
+    height: 860px;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+
+}
+
+.m-dialog .m-dialog-header{
+    background-color: unset;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.m-dialog .m-dialog-header .m-dialog-tittle{
+    font-size: 20px;
+    font-style: Bold;
+    color: black;
+}
+
+.m-dialog .m-dialog-header button.m-dialog-close{
+    position: absolute;
+    right: 24px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../assets/icon/x.svg);
+    text-align: center;
+    background-color: unset;
+    border: none;
+    background-position: center;
+    background-size: contain;
+}
+
+.m-dialog .m-dialog-body{
+    height: calc(900px - 132px);
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.m-dialog .m-dialog-body .m-dialog-avatar{
+    height: 100%;
+    width: 220px;
+    padding: 24px;
+    text-align: center;
+}
+
+.m-dialog-avatar .m-avatar{
+    background-image: url(../../../assets/img/default-avatar.jpg);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 1px solid #bbb;;
+}
+
+.m-dialog .m-dialog-body .m-dialog-info{
+    height: 100%;
+    width: 100%;
+}
+
+.m-dialog .m-dialog-body .m-dialog-info .m-dialog-info-A{
+    width: 100%;
+    height: 55%;
+}
+
+.m-dialog-info-A .m-dialog-info-A-tittle{
+    font-size: 15px;
+    font-style: Bold;
+    color: black;
+}
+
+.m-dialog-info-green{
+    background-color: #019160;
+    height: 5px;
+    width: 86px;
+    margin-top: 4px;
+}
+
+.m-dialog-info-A .m-dialog-info-A-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.m-dialog-info-A .m-dialog-info-A-content-left{
+    width: 50%;
+    height: 100%;
+}
+
+.m-dialog-info-A .m-dialog-info-A-content-right{
+    width: 50%;
+    height: 100%;
+}
+
+.m-dialog .m-dialog-body .m-dialog-info .m-dialog-info-B{
+    width: 100%;
+    height: 45%;
+    padding-top: 24px;
+}
+
+.m-dialog-info-B .m-dialog-info-B-tittle{
+    font-size: 15px;
+    font-style: Bold;
+    color: black;
+}
+
+
+.m-dialog-info-B .m-dialog-info-B-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.m-dialog-info-B .m-dialog-info-B-content-left{
+    width: 50%;
+    height: 100%;
+}
+
+.m-dialog-info-B .m-dialog-info-B-content-right{
+    width: 50%;
+    height: 100%;
+}
+
+.m-dialog .m-dialog-footer{
+    background-color: unset;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.m-dialog .m-dialog-footer button.m-dialog-cancel{
+    background-color: #bbb;
+    color: #000;
+    margin-right: 16px;
+    position: absolute;
+    right: 120px;
+}
+
+.m-dialog .m-dialog-footer button.m-dialog-cancel:hover{
+    background-color: #cecdcd;
+}
+
+.m-dialog .m-dialog-footer button.m-dialog-save{
+    margin-right: 24px;
+    position: absolute;
+    right: 0;
+}
